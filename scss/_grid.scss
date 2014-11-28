@@ -1,0 +1,42 @@
+.masthead{
+    margin-left: 20%;
+}
+.masthead hgroup h1{
+    margin-left: 25%;
+}
+
+.wrapper{
+    width:960px;
+    margin:0 auto;
+}
+
+.col-3{
+    width:30%;
+    height:300px;
+	float: left;
+    @include equalSpaced(3,10px,960px);
+		
+}
+.col-4{
+    width:20%;
+    float:left;
+    @include equalSpaced(4,10px,960px);
+    background-color: #D14EFF;
+}
+
+.foot{
+    clear:both;
+    margin-left: 25%;
+}
+.foot p{
+    margin-left: 20%;
+}
+#Toolkit{
+    background-color: red;
+}
+#Library{
+    background-color: yellow;
+}
+#Fw{
+    background-color: green;
+}
